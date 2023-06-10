@@ -17,7 +17,7 @@ async function check(city) {
     //   get the all data
     var data = await res.json(); //contain all imformation abourt the weather
 
-    //   console.log(data);
+    console.log(data);
     // see these info on colsole
     document.querySelector(".city").innerHTML = data.name;
     document.querySelector(".temp").innerHTML =
